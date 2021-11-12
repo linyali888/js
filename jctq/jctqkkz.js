@@ -23,21 +23,21 @@ let jctq_cookieArr = []
 let jctq_cookies = ""
 
 
-const lookheader = {
+const tqlookheader = {
     'device-platform': 'android',
     'Content-Type': 'application/x-www-form-urlencoded',
     'Content-Length': '1183',
     'Host': 'tq.xunsl.com'
 }
 
-const rewardheader={
+const tqrewardheader={
     'device-platform': 'android',
     'Content-Type': 'application/x-www-form-urlencoded',
     'Content-Length': '1199',
     'Host': 'tq.xunsl.com'
 }
 
-const lookStartheader={
+const tqlookStartheader={
     'device-platform': 'android',
     'Content-Type': 'application/x-www-form-urlencoded',
     'Content-Length': '1197',
@@ -196,7 +196,7 @@ function lookStart(timeout = 0) {
     return new Promise((resolve) => {
         let url = {
             url : 'https://tq.xunsl.com/v5/nameless/adlickstart.json',
-            headers : lookStartheader,
+            headers : tqlookStartheader,
             body : tqlookStartbody1,}//xsgbody,}
         $.post(url, async (err, resp, data) => {
             try {
@@ -236,7 +236,7 @@ function lookstart(timeout = 0) {
     return new Promise((resolve) => {
         let url = {
             url : 'https://tq.xunsl.com/v5/nameless/bannerstatus.json',
-            headers : lookheader,
+            headers : tqlookheader,
             body : tqlookStartbody1,}//xsgbody,}
         $.post(url, async (err, resp, data) => {
             try {
@@ -260,7 +260,7 @@ function reward(timeout = 0) {
     return new Promise((resolve) => {
         let url = {
             url : 'https://tq.xunsl.com/v5/nameless/adlickend.json',
-            headers : rewardheader,
+            headers : tqrewardheader,
             body : tqlookStartbody1,}//xsgbody,}
         $.post(url, async (err, resp, data) => {
             try {
