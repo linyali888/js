@@ -36,12 +36,6 @@
     }
     ,
     {
-      "match": "https://tq.xunsl.com/v5/wechat/withdraw2.json",
-      "target": "https://raw.githubusercontent.com/linyali888/js/jctq/jctq_withdraw.js",
-      "enable": true
-    }
-    ,
-    {
       "match": "https://tq.xunsl.com/v17/NewTask/getTaskList.json",
       "target": "https://raw.githubusercontent.com/linyali888/js/jctq/jctq_today_score.js",
       "enable": true
