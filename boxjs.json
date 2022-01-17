@@ -12,7 +12,8 @@
             "settings": [{
       "key": "soy_rlsp_data",
       "val": "0&f2e1d57418bb3d6a0439b494f3468a75&eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJSYW5sdiBKV1QiLCJpYXQiOjE2MzQwMjE5MzIsImV4cCI6MzI2ODA0Mzg2NCwiYXVkIjoiUmFubHYiLCJzdWIiOiJSYW5sdiIsImRhdGEiOnsibWVtYmVyX2lkIjoxMzY5NzA1LCJhdmF0YXIiOiJodHRwOlwvXC9yYW5sdi5sdmZhY24uY29tXC9zdGF0aWNcL21vZHVsZVwvYWRtaW5cL2ltZ1wvZGVmYXVsdF9oZWFkLmpwZyIsIm5pY2tuYW1lIjoiXHU3NTI4XHU2MjM3NTMyMTcwODYiLCJtb2JpbGUiOiIxODA2NjMxMTAwMCIsImlzX2NvcnAiOjB9fQ.KoBzSpI7eQCezURwTlX492DLU7Qa1Ei97Oz4o5a6R4E&1369705&ran lu shi pin/1.0.68 (iPhone; iOS 14.2.1; Scale/3.00)@0&f2e1d57418bb3d6a0439b494f3468a75&eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJSYW5sdiBKV1QiLCJpYXQiOjE2NDIzODAzMTcsImV4cCI6MzI4NDc2MDYzNCwiYXVkIjoiUmFubHYiLCJzdWIiOiJSYW5sdiIsImRhdGEiOnsibWVtYmVyX2lkIjoxNDI4MDYwLCJhdmF0YXIiOiJodHRwOlwvXC9yYW5sdi5sdmZhY24uY29tXC9zdGF0aWNcL21vZHVsZVwvYWRtaW5cL2ltZ1wvZGVmYXVsdF9oZWFkLmpwZyIsIm5pY2tuYW1lIjoiXHU3NTI4XHU2MjM3Njc4MDQxMzUiLCJtb2JpbGUiOiIxNTA1Nzc4MzMzMiIsImlzX2NvcnAiOjB9fQ.eNW6XXRpqn-ixa1CAsAXM3xKRLL9gyM3mT0lS6ZrKrs&1428060&ran lu shi pin/1.0.72 (iPhone; iOS 12.0; Scale/3.00)"
-    }
+              "type": "textarea",
+            }
             ],
             "repo": "https://gitee.com/soy-tool/app-script/raw/master/app_rlsp.js",
             "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.png"],
